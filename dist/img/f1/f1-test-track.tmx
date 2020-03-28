@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="64" tileheight="64" nextobjectid="6">
+ <tileset firstgid="1" name="green" tilewidth="64" tileheight="64">
+  <image source="tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="curva1" tilewidth="64" tileheight="64">
+  <image source="tileset/curva1.png" trans="ff00ff" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="55" name="curva2" tilewidth="64" tileheight="64">
+  <image source="tileset/curva2.png" trans="ff00ff" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="91" name="curva3" tilewidth="64" tileheight="64">
+  <image source="tileset/curva3.png" trans="ff00ff" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="127" name="curva4" tilewidth="64" tileheight="64">
+  <image source="tileset/curva4.png" trans="ff00ff" width="384" height="384"/>
+ </tileset>
+ <tileset firstgid="163" name="dritto2" tilewidth="64" tileheight="64">
+  <image source="tileset/dritto2.png" trans="ff00ff" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="172" name="dritto3" tilewidth="64" tileheight="64">
+  <image source="tileset/dritto3.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="188" name="dritto1" tilewidth="64" tileheight="64">
+  <image source="tileset/dritto1.png" trans="ff00ff" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="197" name="finishline" tilewidth="64" tileheight="1">
+  <image source="tileset/finishline.png" trans="ff00ff" width="64" height="1"/>
+ </tileset>
+ <tileset firstgid="198" name="slower" tilewidth="64" tileheight="64">
+  <image source="tileset/slower.png" trans="ff00ff" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="199" name="straight-green" tilewidth="64" tileheight="64">
+  <image source="tileset/straight-green.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <layer name="test" width="32" height="32">
+  <data encoding="base64" compression="zlib">
+   eJy11vWLFVEUwPHzoz/5i65iLBYWFhZYWFhYWFisgYWFhYUdWFhYWFjY3d0B7tr99/gdZi7vvsN58x7D3gMfltlh5sybc++cUyUin7ARm7AZW7AVN1CBKZiKaZgu1RtVSf5t2I4d2IlduIMZmIlZmI05gfLvxh7sxT7sxwPMxTzMxwIsDJT/AA7iEA7jCJ5gERZjCZZiWaD8R3EMx3ECJ1ETy7ECK7EKqwPlP4XTOIOPicrkfGQd1mNDoPwv8BKvjPxfcR4XcDFQ/td4g7dG/p+4hMu4Eij/O7zHByP/Xwn/+/37W/lD/37//lb+q7iG64Hy+/e38tdDfTSo5vzR2v4mxd9/IzRGEzRFM4n7w03cwu3kr/ufPhfxe4mLaG3/kvz3/9l4huZogZZohdYS94e7uIf7JRz7vaRGIvpt/yT//X/3nsHlb4O2aIf26CBxf3iIR3hcwrHVSwqtf/cMX5IadUQndEYXdJW4PzzFMzwv4djqJa7+ev3/Tp7hR1KjqBf4s0GWucDqJa7+ev1XJs/wR+Ia6dkgy1ywBmslv5e4+uv373/7rdkgy1zQDd3RAz3RS0r7/lizQZa5oDf6oC/6ob/k6p/W/6zZoJS5QM+UAzAQgzAYQyRXf7//6b3nzwZncU7sWurQM+VQDMNwjMBIydVf9z9/9kjrfWnn9LoZhdEYg7EYJ4XnDz9/Wu9LO6fXzXhMwERMwmTJ1V+/f/fdiaT1vrRz1rrR4ervv3//u1Ns9kk7Z60bHa7+tVAbZZL/3Sk2e/jX1UFdsfd5oXD19/t7Q5SLvV91ZL1O57f6u7VfdWS9zoVbf1Z/t/arjqzXuXDrz+rv1n7VkfU6F279Wf3d2q86sl7n4j8vw2L0
+  </data>
+ </layer>
+ <layer name="finishline" width="32" height="32" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7D594Uv3hkgPG3SBACAD1MB4NoC9p4CUA==
+  </data>
+ </layer>
+ <layer name="slowerline" width="32" height="32" visible="0" opacity="0.6">
+  <data encoding="base64" compression="zlib">
+   eJztlVEKACEIRL3/wTzX/uxCiNVok31sQgTZ+EwqVUT0HYipxPaj8TIaRg6ZGKyzf7Ey56/ie74Kvpr5T/x2ree//LP8nf/fjN+uR8ZIG+Wv2mm+x7r8Pn+WQ+T+ofxIn7d70RwQPmpsvji+Ff5Ms5OPaHbwIxo2P6qp5I/qZHsFi+/dCSYfzc/GZ73/LL/KWPxsXdD6ozEYumyPWdUhPoSd0bX2ABI02h0=
+  </data>
+ </layer>
+</map>
